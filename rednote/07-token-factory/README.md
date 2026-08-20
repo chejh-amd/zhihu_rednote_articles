@@ -58,7 +58,7 @@ GPT-OSS
 
 2️⃣ 想要独享资源：使用 Radeon Cloud Credits 部署 Dedicated Model。
 
-3️⃣ 想体验合作伙伴模型：按对应平台的规则申请和使用。
+3️⃣ 想体验合作伙伴模型：由第三方平台Fireworks AI提供服务的模型入口，按对应平台的规则申请和使用。
 
 🔑 三步创建API Key
 
