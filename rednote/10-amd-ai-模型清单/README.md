@@ -10,55 +10,50 @@ Qwen、DeepSeek、Gemma、Qwen3.8……
 
 先记住这份答案：
 
-📚 聊天写作：Qwen
-🧠 逻辑推理：DeepSeek-R1 Distill
-💻 编程任务：Qwen Coder
-🖼️ 图文理解：Gemma 3
+📚 聊天写作：Qwen系列
+🧠 逻辑推理：DeepSeek-R1-Distill系列
+💻 编程任务：Qwen Coder系列
+🖼️ 图文理解：Gemma 4系列
 🔥 综合热门：Qwen3.8-27B
 
 【01】8GB显存｜轻量入门
 
-常见显卡：RX 6600、RX 7600
+常见显卡：RX 6600（8GB）、RX 7600（8GB）
 
-推荐：
+可以这样选：
 
-✅ Qwen3 8B
-✅ DeepSeek-R1 Distill 8B
-✅ Qwen2.5-Coder 7B
+✅ Qwen3-8B
+✅ DeepSeek-R1-Distill-Llama-8B
+✅ Qwen2.5-Coder-7B
 
 适合聊天、写文案、总结资料和轻度编程。
 
-如果只装一个：👉 Qwen3 8B
+如果只装一个：👉 Qwen3-8B
 
 对于8GB显存来说，模型能否流畅运行，通常比参数规模更重要。
 
 【02】12GB–16GB｜主流实用
 
-常见显卡：RX 6700 XT、7700 XT、6800、7800 XT、9070 XT
+常见显卡：RX 6700 XT（12GB）、RX 7700 XT（12GB）、RX 6800（16GB）、RX 7800 XT（16GB）、RX 9070 XT（16GB）
 
-推荐：
+可以这样选：
 
-✅ Qwen3 14B
-✅ DeepSeek-R1 Distill 14B
-✅ Qwen2.5-Coder 14B
-✅ Gemma 3 12B
+📚 日常办公和写作：Qwen3-14B
+🧠 数学与复杂推理：DeepSeek-R1-Distill-Qwen-14B
+💻 编程任务：Qwen2.5-Coder-14B
+🖼️ 图片理解：Gemma-4-12.B-it
 
-📚 日常办公和写作：Qwen3
-🧠 数学与复杂推理：DeepSeek-R1
-💻 编程任务：Qwen2.5-Coder
-🖼️ 图片理解：Gemma 3
-
-如果只装一个：👉 Qwen3 14B
+如果只装一个：👉 Qwen3-14B
 
 【03】20GB–24GB｜进阶使用
 
-常见显卡：RX 7900 XT、7900 XTX
+常见显卡：RX 7900 XT（20GB）、RX 7900 XTX（24GB）
 
-推荐：
+可以这样选：
 
 ✅ Qwen3.8-27B Q4
-✅ DeepSeek-R1 Distill 32B
-✅ Qwen3-Coder 30B-A3B
+✅ DeepSeek-R1-Distill-Qwen-32.B
+✅ Qwen3-Coder-30B-A3B
 
 适合Coding Agent、本地知识库、长文档处理和自动化工作流。
 
@@ -68,7 +63,7 @@ Qwen、DeepSeek、Gemma、Qwen3.8……
 
 【04】32GB以上｜质量优先
 
-常见显卡：Radeon AI PRO R9700、W7800 48GB
+常见显卡：Radeon AI PRO R9700（32GB）、Radeon PRO W7800（32GB）、Radeon PRO W7900（48GB）
 
 Qwen3.8-27B可以选择Q5或Q6版本，量化损失更低，也能给长上下文、MTP和视觉组件留出更多空间。
 
@@ -78,9 +73,11 @@ Qwen3.8-27B可以选择Q5或Q6版本，量化损失更低，也能给长上下�
 
 它能兼顾聊天、编程、Agent和图文理解，适合不想安装一堆模型的用户。
 
-✅ 16GB：Q3或特殊量化版，适合体验
-✅ 24GB：Q4，比较适合作为主力模型
-✅ 32GB：Q5或Q6，在模型质量和上下文空间上更从容
+✅ 16GB：可尝试低位量化版本（体验为主）
+
+✅ 24GB：Q4，更适合作为主力部署配置
+
+✅ 32GB以上：可选择更高量化等级和更长上下文
 
 【06】热门关注｜MiniMax H3运行建议
 
@@ -88,7 +85,11 @@ Qwen3.8-27B可以选择Q5或Q6版本，量化损失更低，也能给长上下�
 
 目前部分AMD显卡可以通过社区工作流运行MiniMax H3，但实际体验不只取决于显存，还会受到内存卸载、算子优化和工作流成熟度影响。
 
-根据现有用户反馈，16GB显卡更适合体验；24GB显卡拥有更大的运行空间，实际效果仍与工作流配置和优化情况有关。
+根据目前社区反馈，16GB以上显卡已有用户成功完成部署尝试；
+
+24GB显卡在显存余量方面更加从容。
+
+实际体验仍会受到工作流、量化方式以及系统内存配置影响。
 
 ✅ 想尝试本地部署：优先参考对应显卡的社区工作流
 ✅ 对显存和资源需求更高的场景，也可以考虑使用云端算力环境
